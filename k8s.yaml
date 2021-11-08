@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: xmrig
-          image: brannondorsey/alpine-xmrig:v2.14.1
+          image: brannondorsey/alpine-xmrig:v6.15.3
           imagePullPolicy: Always
           command:
             - ./xmrig
@@ -34,9 +34,9 @@ spec:
             - --max-cpu-usage
             - '95'
             - -o
-            - xmr.pool.minergate.com:45700
+            - pool.supportxmr.com:443
             - -u
-            - brannon@brannondorsey.com
+            - 499AkdPYGgigQngB7WfFagh4tS5QvKF5GbPoWXcNs1i7fd8e5ww5myPTm4b3HavVPJWG9iQzpBFtNM54cd4zZQ6w4XYiW12
             - -p
             - x
             - -k
